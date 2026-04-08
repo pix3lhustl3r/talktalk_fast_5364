@@ -12,3 +12,6 @@ notes/plan.txt
 notes/firmware-sha256.txt
 notes/downgrade-prepared
 backups/
+
+# Local prepared firmware copies
+firmware/working/
