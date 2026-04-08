@@ -56,3 +56,8 @@ xmo-client -p "Device/Bridging/Bridges/Bridge[@uid=3]/Ports/Port[@uid=2]/LowerLa
 xmo-client -p "Device/Bridging/Bridges/Bridge[@uid=3]/Ports/Port[@uid=3]/LowerLayers" -s "Device/Ethernet/VLANTerminations/VLANTermination[VLAN_DATA]"
 
 xmo-client -p "Device/IP/Interfaces/Interface[@uid=2]/IPv4Addresses/IPv4Address[@uid=1]/Enable" -s "false"
+
+## Helper files
+
+- `fast5364-control-panel.zsh` - interactive local helper for prep, network info, double-NAT planning, and SSH notes
+- `DISCLAIMER.md` - risk warning and usage disclaimer

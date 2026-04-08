@@ -1,0 +1,14 @@
+# Editor / shell junk
+*~
+.*.swp
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+
+# Local notes and runtime artifacts
+notes/plan.txt
+notes/firmware-sha256.txt
+notes/downgrade-prepared
+backups/
